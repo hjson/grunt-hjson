@@ -1,0 +1,36 @@
+{
+  # comments are useful
+  "rate": 1000 # specify in requests/second
+
+  # key names do not need to be placed in quotes
+  key: "value"
+
+  # most of the time you don't need quotes for strings
+  text: look ma, no quotes!
+
+  # commas are optional
+  commas:
+  {
+    one: 1
+    two: 2
+  }
+
+  # trailing commas are allowed
+  trailing:
+  {
+    one: 1,
+    two: 2,
+  }
+
+  # multiline string
+  haiku:
+    '''
+    JSON I love you.
+    But you strangle my expression.
+    This is so much better.
+    '''
+
+  # Arrays are sometimes easier to read
+  # when written on a single line.
+  favNumbers: [ 1, 2, 3, 6, 42 ]
+}

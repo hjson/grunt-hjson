@@ -1,0 +1,9 @@
+{
+  "name": "grunt-hjson-test",
+  "version": "0.0.1",
+  "description": "Convert Hjson and JSON for grunt",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-hjson": "^1.0.0"
+  }
+}

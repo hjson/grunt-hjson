@@ -1,0 +1,3 @@
+{
+  "rate": 2000 # specify in requests/second
+}
