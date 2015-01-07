@@ -7,9 +7,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'src/',
+            cwd: 'test/src/',
             src: ['*.hjson'],
-            dest: 'dist/',
+            dest: 'test/dist/',
             ext: '.json',
           },
         ],
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-hjson');
+  grunt.loadTasks('tasks');
 
   grunt.registerTask('default', ['hjson']);
 };

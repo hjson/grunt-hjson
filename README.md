@@ -1,6 +1,13 @@
 # grunt-hjson
 
+[![Build Status](https://img.shields.io/travis/laktak/grunt-hjson.svg?style=flat-square)](http://travis-ci.org/laktak/grunt-hjson)
+[![NPM version](https://img.shields.io/npm/v/grunt-hjson.svg?style=flat-square)](http://www.npmjs.com/package/grunt-hjson)
+
 Hjson to/from JSON convert plugin for grunt.
+
+Hjson, the Human JSON. A configuration file format that caters to humans and helps reduce the errors they make.
+
+It supports `#`, `//` and `/**/` style comments as well as avoiding trailing/missing comma and other mistakes. For details and syntax see http://laktak.github.io/hjson.
 
 ## Usage
 
