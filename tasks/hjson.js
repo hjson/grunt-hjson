@@ -27,11 +27,12 @@ module.exports=function(grunt) {
       var destExt=path.extname(f.dest);
 
       if (f.src.length!==1)
-        throw new Error('Each source file needs to map to one destination file!');
+        next(new Error('Each source file needs to map to one destination file!'));
 
       var res=convert(f.src[0], destExt);
       grunt.file.write(destFile, res);
       grunt.log.writeln('File "'+destFile+'" converted.');
+      next(true);//success
     }, done);
   });
 
