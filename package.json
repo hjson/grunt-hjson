@@ -2,7 +2,7 @@
   "name": "grunt-hjson",
   "description": "Convert Hjson and JSON for grunt",
   "author": "Christian Zangl",
-  "version": "1.8.0",
+  "version": "2.0.3",
   "keywords": [
     "gruntplugin",
     "hjson",
@@ -28,8 +28,8 @@
     "npm test"
   ],
   "dependencies": {
-    "async": "^1.4.2",
-    "hjson": "^1.8.0"
+    "async": "^2.0.1",
+    "hjson": "^2.0.3"
   },
   "license": "MIT",
   "devDependencies": {
