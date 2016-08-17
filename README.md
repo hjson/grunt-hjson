@@ -1,6 +1,6 @@
 # grunt-hjson
 
-[![Build Status](https://img.shields.io/travis/laktak/grunt-hjson.svg?style=flat-square)](http://travis-ci.org/laktak/grunt-hjson)
+[![Build Status](https://img.shields.io/travis/hjson/grunt-hjson.svg?style=flat-square)](http://travis-ci.org/hjson/grunt-hjson)
 [![NPM version](https://img.shields.io/npm/v/grunt-hjson.svg?style=flat-square)](http://www.npmjs.com/package/grunt-hjson)
 
 Hjson plugin for grunt, converts from and to JSON.

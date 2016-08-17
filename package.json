@@ -2,7 +2,7 @@
   "name": "grunt-hjson",
   "description": "Convert Hjson and JSON for grunt",
   "author": "Christian Zangl",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "keywords": [
     "gruntplugin",
     "hjson",
@@ -16,10 +16,10 @@
   "homepage": "http://hjson.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/laktak/grunt-hjson.git"
+    "url": "git://github.com/hjson/grunt-hjson.git"
   },
   "bugs": {
-    "url": "https://github.com/laktak/grunt-hjson/issues"
+    "url": "https://github.com/hjson/grunt-hjson/issues"
   },
   "scripts": {
     "test": "grunt"
